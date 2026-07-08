@@ -1,0 +1,18 @@
+import java.util.*;
+public class Solution{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int sum=(a+b);
+        int sub=(a-b);
+        int mul=(a*b);
+        int div=(a/b);
+        int rem=(a%b);
+        System.out.println("The sum is "+sum);
+        System.out.println("The difference is "+sub);
+        System.out.println("The product is "+mul);
+        System.out.println("The quotient is "+div);
+        System.out.println("The remainder is "+rem);
+    }
+}
