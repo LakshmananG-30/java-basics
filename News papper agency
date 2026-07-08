@@ -1,0 +1,12 @@
+import java.util.*;
+public class Solution{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int length=sc.nextInt();
+        int breadth=sc.nextInt();
+        int A=(2*(length+breadth));
+        int B=((length*breadth));
+        System.out.println("Perimeter: "+A+" m");
+        System.out.println("Area: "+B+" sqm");
+    } 
+}
