@@ -1,0 +1,8 @@
+import java.util.*;
+public class Solution{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int amt=sc.nextInt();
+        System.out.print("The total salary is "+(amt+(amt*20/100)+(amt*15/100)-(amt*5/100)));
+    }
+}
